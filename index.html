@@ -3,79 +3,134 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fikri – Investment Specialist</title>
+  <title>IS Fikri - Mirae Asset</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background-color: #f7f9fc;
-      background-image: url('https://i.ibb.co/0F5H0Pb/chart-bg-light.png'); /* opsional background */
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      color: #002e6d;
+      background: #f3f5fa url('https://raw.githubusercontent.com/fikriankhairi/IS-fikri/main/mirae-asset-grafik.png') no-repeat center top;
+      background-size: 80%;
+      color: #002E6D;
     }
-    .container {
-      max-width: 500px;
-      margin: 60px auto;
-      padding: 20px;
+   
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-color: #f3f5fa;
+      opacity: 0.7; 
+      z-index: -1;
+    }
+
+    header {
+      background-color: white;
+      padding: 12px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
       text-align: center;
-      background-color: #ffffffdd;
-      border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
+
+    header img {
+      height: 30px;
+    }
+
+    .container {
+      max-width: 460px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px 20px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
     .profile-img {
       width: 120px;
       height: 120px;
       object-fit: cover;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      border-radius: 16px;
       margin-bottom: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
+
     h2 {
-      margin: 0;
+      font-size: 20px;
       color: #e87a00;
+      margin: 0;
     }
+
     p.subtitle {
-      margin-top: 4px;
-      color: #777;
       font-size: 14px;
+      color: #555;
+      margin-top: 4px;
+      margin-bottom: 24px;
     }
+
     .btn {
-      display: block;
-      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background-color: #002E6D;
       color: white;
-      background-color: #002e6d;
-      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 12px 18px;
       border-radius: 8px;
       margin: 10px 0;
-      font-weight: 600;
+      justify-content: center;
       transition: background 0.2s;
     }
+
     .btn:hover {
-      background-color: #001f4d;
+      background-color: #001a4a;
     }
-    .btn-orange {
+
+    .btn.orange {
       background-color: #ffa000;
-      color: #fff;
     }
-    .btn-orange:hover {
+
+    .btn.orange:hover {
       background-color: #e07c00;
     }
+
+    .fa-whatsapp { color: #25d366; }
+    .fa-instagram { color: #e4405f; }
+    .fa-book-open, .fa-magnifying-glass, .fa-tag { color: white; }
   </style>
 </head>
 <body>
+
+  <header>
+    <img src="https://raw.githubusercontent.com/fikriankhairi/IS-fikri/main/mirae-asset-logo.jpg" alt="Mirae Asset Sekuritas">
+  </header>
+
   <div class="container">
-    <img src="https://i.ibb.co/G00YMyK/fikri-profile.jpg" alt="Foto Fikri" class="profile-img"> <!-- Ganti URL fotomu -->
+    <img src="https://raw.githubusercontent.com/fikriankhairi/IS-fikri/main/foto-fikri.jpg" alt="Foto Fikri" class="profile-img">
     <h2>Fikri siap membantu financial management Anda.</h2>
     <p class="subtitle">Yuk, belajar investasi bareng!</p>
 
-    <a class="btn" href="https://wa.me/6281234567890" target="_blank">Konsultasi Gratis (WA)</a>
-    <a class="btn" href="https://instagram.com/fikri_invest" target="_blank">Hubungi Fikri Sekarang</a>
-    <a class="btn btn-orange" href="https://bit.ly/buka-akun-investasi" target="_blank">Buka Akun & Mulai Investasi Sekarang</a>
-    <a class="btn" href="https://fikri.link/investasi" target="_blank">Kenali Investasi Lebih Dekat</a>
-    <a class="btn" href="https://fikri.link/promo" target="_blank">Klaim Promo Sekarang</a>
+    <a class="btn" href="https://wa.me/6281247380892" target="_blank">
+      <i class="fab fa-whatsapp"></i> Konsultasi Gratis (WA)
+    </a>
+
+    <a class="btn" href="https://instagram.com/fikriankhairi" target="_blank">
+      <i class="fab fa-instagram"></i> Hubungi Fikri Sekarang
+    </a>
+
+    <a class="btn orange" href="https://login.miraeasset.co.id/registration/oe?referralcode=3102584" target="_blank">
+      <i class="fas fa-book-open"></i> Buka Akun & Mulai Investasi Sekarang
+    </a>
+
+    <a class="btn" href="https://www.tiktok.com/@fikri_ankhairi" target="_blank">
+      <i class="fas fa-magnifying-glass"></i> Kenali Investasi Lebih Dekat
+    </a>
+
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSf_l-X8LSrKwOOjLvJsiKloBsqqo7urcqPHbKnxaNtWKPskKw/viewform?usp=sf_link" target="_blank">
+      <i class="fas fa-tag"></i> Klaim Promo Sekarang
+    </a>
   </div>
 </body>
 </html>
