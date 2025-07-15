@@ -3,39 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Delpi – Mirae Asset</title>
+  <title>Fikri – Investment Specialist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f7f9fc;
+      background-image: url('https://i.ibb.co/0F5H0Pb/chart-bg-light.png'); /* opsional background */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      color: #002e6d;
+    }
+    .container {
+      max-width: 500px;
+      margin: 60px auto;
+      padding: 20px;
       text-align: center;
-      padding: 2rem;
-      background: #f9f9f9;
+      background-color: #ffffffdd;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
-    .box {
-      background: white;
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
       border-radius: 12px;
-      padding: 2rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      margin-bottom: 16px;
     }
-    a.btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 10px 20px;
-      background: #0063ff;
-      color: white;
-      border-radius: 6px;
+    h2 {
+      margin: 0;
+      color: #e87a00;
+    }
+    p.subtitle {
+      margin-top: 4px;
+      color: #777;
+      font-size: 14px;
+    }
+    .btn {
+      display: block;
       text-decoration: none;
+      color: white;
+      background-color: #002e6d;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin: 10px 0;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background-color: #001f4d;
+    }
+    .btn-orange {
+      background-color: #ffa000;
+      color: #fff;
+    }
+    .btn-orange:hover {
+      background-color: #e07c00;
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>Halo, Saya Delpi</h1>
-    <p>Investment Specialist di Mirae Asset</p>
-    <a class="btn" href="https://wa.me/6281234567890?text=Halo%20Kak%20Delpi%2C%20saya%20tertarik%20dengan%20investasi." target="_blank">
-      Konsultasi via WhatsApp
-    </a>
+  <div class="container">
+    <img src="https://i.ibb.co/G00YMyK/fikri-profile.jpg" alt="Foto Fikri" class="profile-img"> <!-- Ganti URL fotomu -->
+    <h2>Fikri siap membantu financial management Anda.</h2>
+    <p class="subtitle">Yuk, belajar investasi bareng!</p>
+
+    <a class="btn" href="https://wa.me/6281234567890" target="_blank">Konsultasi Gratis (WA)</a>
+    <a class="btn" href="https://instagram.com/fikri_invest" target="_blank">Hubungi Fikri Sekarang</a>
+    <a class="btn btn-orange" href="https://bit.ly/buka-akun-investasi" target="_blank">Buka Akun & Mulai Investasi Sekarang</a>
+    <a class="btn" href="https://fikri.link/investasi" target="_blank">Kenali Investasi Lebih Dekat</a>
+    <a class="btn" href="https://fikri.link/promo" target="_blank">Klaim Promo Sekarang</a>
   </div>
 </body>
 </html>
